@@ -1,0 +1,4 @@
+name: EnderChestOff
+version: '${version}'
+main: ru.bagalast.enderchestoff.EnderChestOff
+api-version: '1.16'
