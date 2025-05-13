@@ -1,0 +1,7 @@
+name: BestDevRWMarket
+version: '${version}'
+main: ru.bagalast.bestdevrwmarket.BestDevRWMarket
+api-version: '1.16'
+depend: [Vault]
+commands:
+  market:

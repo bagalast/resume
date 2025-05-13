@@ -1,0 +1,47 @@
+empty-market:
+  slot: 22
+  material: BARRIER
+  name: "&cРынок пуст"
+  lore:
+    - "&7На рынке нет доступных товаров."
+
+market-items:
+  lore:
+    - "Количество предметов на маркете: {amount}"
+    - "Минимальная цена: {min}"
+    - "Средняя цена: {avg}"
+
+current-items:
+  current-line: "{current_amount} товаров по цене {price} = {sum_price}"
+  total-line: "Итого: {total}"
+  no-balance-line: "У вас недостаточно средств для покупки"
+  yes-balance-line: "Кликните, чтобы купить"
+
+market-my:
+  lore:
+    - "Цена за предмет: {price}"
+    - "Количество: {amount}"
+    - ""
+    - "&cНажмите, чтобы снять с продажи"
+
+
+arrows:
+  left:
+    material: ARROW
+    name: "&eПредыдущая страница"
+  right:
+    material: ARROW
+    name: "&eСледующая страница"
+
+messages:
+  item-not-allowed: "&cЭтот предмет нельзя выставить на продажу"
+  no-balance: "&cУ вас недостаточно средств для покупки"
+  sell: "&aПокупка завершена успешно"
+  item-returned: "&aПредмет возвращен в ваш инвентарь"
+  no-space: "&cНе хватает места в инвентаре"
+  help-sell: "&cИспользуйте /market sell <цена за 1шт.>"
+  item-error: "&cВозьмите предмет в руку"
+  price-error: "&cУкажите корректную цену"
+  market-sell: "&aВы успешно выставили {amount} {item} предмет на рынок по цене {price}"
+  error: "&cНеизвестная команда"
+
