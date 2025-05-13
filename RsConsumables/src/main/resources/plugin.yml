@@ -1,0 +1,18 @@
+name: RsConsumables
+version: '${version}'
+main: ru.bagalast.rsconsumables.RsConsumables
+api-version: '1.16'
+depend: [WorldEdit, WorldGuard] # Добавляем WorldEdit в зависимости
+
+commands:
+  rs:
+    description: Основная команда для ResolverConsumables.
+    usage: /rs [give]
+
+permissions:
+  rs.use:
+    description: Позволяет игроку использовать предмет-ловушку.
+    default: true
+  rs.give:
+    description: Позволяет игроку выдавать предметы-ловушки другим игрокам.
+    default: op

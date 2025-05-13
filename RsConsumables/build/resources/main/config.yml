@@ -1,0 +1,25 @@
+# rs.give
+# Разрешение на выдачу трапки
+
+no-perm-give: "&cНету прав"
+no-item: "&cНету такого предмета"
+no-player: "&cИгрок не найден"
+help: "&a/rs give trap [nick] [amount]"
+amount-error: "&cНеверное количество"
+
+trap:
+  file-schematic: trap # указывать без расширения, но файлы должны быть .schem, они берутся из WorldEdit
+  active-time: 10 # время работы трапки в секундах
+  cooldown: 20 # время перезарядки трапки в секундах
+  sound: BLOCK_PISTON_EXTEND
+  sound-disabled: BLOCK_PISTON_EXTEND
+
+disabled-regions:
+  - "spawn"
+
+item:
+  material: CAMPFIRE
+  glow: true
+  name: "Название"
+  lore:
+    - "Описание"
